@@ -52,7 +52,7 @@ class Robot
     @vintage_model = new_val
   end
 
-  def todos 
+  def todos
     @todos
   end
 
@@ -60,7 +60,7 @@ class Robot
     @todos = new_val
   end
 
-  def day_off 
+  def day_off
     @day_off
   end
 
@@ -69,3 +69,11 @@ class Robot
   end
 
 end
+
+
+# robot1 = Robot.new
+# robot1.needs_repairs =1
+# robot1.foreign_model =1
+# puts robot1.station
+# robot1.prioritize_tasks
+# puts "#{}"
